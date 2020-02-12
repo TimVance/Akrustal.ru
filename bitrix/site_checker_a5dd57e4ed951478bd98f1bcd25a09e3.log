@@ -1,0 +1,235 @@
+2020-Jan-28 13:53:52 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2020-Jan-28 13:53:52 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2020-Jan-28 13:53:52 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2020-Jan-28 13:53:52 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2020-Jan-28 13:53:53 Сохранение сессии (check_session): Ok
+50% done
+2020-Jan-28 13:53:53 Сохранение сессии (check_session): Ok
+Успешно
+2020-Jan-28 13:53:53 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2020-Jan-28 13:53:53 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2020-Jan-28 13:53:55 Работа с сокетами (check_socket): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:55 Выполнение агентов на cron (check_bx_crontab): Ok
+Успешно
+2020-Jan-28 13:53:55 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2020-Jan-28 13:53:55 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:55 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to bx28960.rdkd.ru:80	Success
+
+2020-Jan-28 13:53:56 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:56 Настройки сайтов (check_sites): Ok
+Правильные
+2020-Jan-28 13:53:56 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2020-Jan-28 13:53:56 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:56 Загрузка файла (check_upload): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:56 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:56 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:56 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:57 Отправка почты (check_mail): Ok
+Успешно
+2020-Jan-28 13:53:57 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2020-Jan-28 13:53:57 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2020-Jan-28 13:53:57 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to bx28960.rdkd.ru:80	Success
+
+2020-Jan-28 13:53:57 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:57 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to bx28960.rdkd.ru:80	Success
+
+2020-Jan-28 13:53:57 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to bx28960.rdkd.ru:80	Success
+
+2020-Jan-28 13:53:58 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to bx28960.rdkd.ru:80	Success
+
+2020-Jan-28 13:53:58 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to bx28960.rdkd.ru:80	Success
+
+2020-Jan-28 13:53:58 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Не менее 256 М
+2020-Jan-28 13:53:58 Работа с файлами кеша (check_cache): Ok
+Успешно
+2020-Jan-28 13:53:58 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2020-Jan-28 13:53:59 HTTP авторизация (check_http_auth): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:59 Создание и запуск файла (check_exec): Ok
+Connection to bx28960.rdkd.ru:80	Success
+
+Успешно
+2020-Jan-28 13:53:59 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2020-Jan-28 13:53:59 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2020-Jan-28 13:54:00 Время на БД и веб-сервере (check_mysql_time): Ok
+Успешно
+2020-Jan-28 13:54:00 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2020-Jan-28 13:54:00 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2020-Jan-28 13:54:00 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=utf8, COLLATION=utf8_unicode_ci
+Успешно
+2020-Jan-28 13:54:01 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2020-Jan-28 13:54:08 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+В таблице b_user_field_lang поле USER_FIELD_ID "`USER_FIELD_ID` int(11) NOT NULL DEFAULT "0"" не соответствует описанию на диске "`USER_FIELD_ID` int(11) NOT NULL"
+В таблице b_user_field_lang поле LANGUAGE_ID "`LANGUAGE_ID` char(2) NOT NULL DEFAULT """ не соответствует описанию на диске "`LANGUAGE_ID` char(2) NOT NULL"
+
+2020-Jan-28 13:54:08 Структура базы данных (check_mysql_table_structure): Ok
+2% done
+2020-Jan-28 13:54:09 Структура базы данных (check_mysql_table_structure): Ok
+5% done
+2020-Jan-28 13:54:10 Структура базы данных (check_mysql_table_structure): Ok
+8% done
+В таблице b_sec_iprule_incl_mask поле RULE_MASK "`RULE_MASK` varchar(250) NOT NULL DEFAULT """ не соответствует описанию на диске "`RULE_MASK` varchar(250) NOT NULL"
+В таблице b_sec_iprule_excl_mask поле RULE_MASK "`RULE_MASK` varchar(250) NOT NULL DEFAULT """ не соответствует описанию на диске "`RULE_MASK` varchar(250) NOT NULL"
+
+2020-Jan-28 13:54:10 Структура базы данных (check_mysql_table_structure): Ok
+11% done
+2020-Jan-28 13:54:10 Структура базы данных (check_mysql_table_structure): Ok
+13% done
+2020-Jan-28 13:54:10 Структура базы данных (check_mysql_table_structure): Ok
+16% done
+2020-Jan-28 13:54:11 Структура базы данных (check_mysql_table_structure): Ok
+19% done
+2020-Jan-28 13:54:11 Структура базы данных (check_mysql_table_structure): Ok
+22% done
+2020-Jan-28 13:54:12 Структура базы данных (check_mysql_table_structure): Ok
+25% done
+2020-Jan-28 13:54:21 Структура базы данных (check_mysql_table_structure): Ok
+27% done
+2020-Jan-28 13:54:22 Структура базы данных (check_mysql_table_structure): Ok
+30% done
+В таблице b_translate_path отсутствует индекс IX_TRNSL_PTH_PATH (path)
+В таблице b_translate_path_lang отсутствует индекс IX_TRNSL_LNG_PATH (path)
+В таблице b_translate_file отсутствует индекс IX_TRNSL_FULL_PATH (full_path)
+
+2020-Jan-28 13:54:22 Структура базы данных (check_mysql_table_structure): Ok
+33% done
+2020-Jan-28 13:54:23 Структура базы данных (check_mysql_table_structure): Ok
+36% done
+2020-Jan-28 13:54:23 Структура базы данных (check_mysql_table_structure): Ok
+38% done
+2020-Jan-28 13:54:24 Структура базы данных (check_mysql_table_structure): Ok
+41% done
+2020-Jan-28 13:54:24 Структура базы данных (check_mysql_table_structure): Ok
+44% done
+2020-Jan-28 13:54:24 Структура базы данных (check_mysql_table_structure): Ok
+47% done
+2020-Jan-28 13:54:26 Структура базы данных (check_mysql_table_structure): Ok
+50% done
+2020-Jan-28 13:54:26 Структура базы данных (check_mysql_table_structure): Ok
+52% done
+2020-Jan-28 13:54:27 Структура базы данных (check_mysql_table_structure): Ok
+55% done
+2020-Jan-28 13:54:29 Структура базы данных (check_mysql_table_structure): Ok
+58% done
+В таблице b_landing поле DATE_PUBLIC "`DATE_PUBLIC` timestamp NOT NULL DEFAULT "0000-00-00 00:00:00"" не соответствует описанию на диске "`DATE_PUBLIC` timestamp NULL DEFAULT NULL"
+
+2020-Jan-28 13:54:31 Структура базы данных (check_mysql_table_structure): Ok
+61% done
+2020-Jan-28 13:54:31 Структура базы данных (check_mysql_table_structure): Ok
+63% done
+2020-Jan-28 13:54:32 Структура базы данных (check_mysql_table_structure): Ok
+66% done
+2020-Jan-28 13:54:33 Структура базы данных (check_mysql_table_structure): Ok
+69% done
+2020-Jan-28 13:54:34 Структура базы данных (check_mysql_table_structure): Ok
+72% done
+2020-Jan-28 13:54:35 Структура базы данных (check_mysql_table_structure): Ok
+75% done
+В таблице b_forum_user_topic поле TOPIC_ID "`TOPIC_ID` int(11) NOT NULL DEFAULT "0"" не соответствует описанию на диске "`TOPIC_ID` int(11) NOT NULL"
+В таблице b_forum_user_topic поле USER_ID "`USER_ID` int(11) NOT NULL DEFAULT "0"" не соответствует описанию на диске "`USER_ID` int(11) NOT NULL"
+
+2020-Jan-28 13:54:37 Структура базы данных (check_mysql_table_structure): Ok
+77% done
+2020-Jan-28 13:54:37 Структура базы данных (check_mysql_table_structure): Ok
+80% done
+В таблице b_perf_sql_backtrace поле SQL_ID "`SQL_ID` int(18) NOT NULL DEFAULT "0"" не соответствует описанию на диске "`SQL_ID` int(18) NOT NULL"
+В таблице b_perf_sql_backtrace поле NN "`NN` int(18) NOT NULL DEFAULT "0"" не соответствует описанию на диске "`NN` int(18) NOT NULL"
+В таблице b_perf_index_suggest_sql поле SUGGEST_ID "`SUGGEST_ID` int(11) NOT NULL DEFAULT "0"" не соответствует описанию на диске "`SUGGEST_ID` int(11) NOT NULL"
+В таблице b_perf_index_suggest_sql поле SQL_ID "`SQL_ID` int(11) NOT NULL DEFAULT "0"" не соответствует описанию на диске "`SQL_ID` int(11) NOT NULL"
+В таблице b_perf_tab_stat поле TABLE_NAME "`TABLE_NAME` varchar(50) NOT NULL DEFAULT """ не соответствует описанию на диске "`TABLE_NAME` varchar(50) NOT NULL"
+
+2020-Jan-28 13:54:38 Структура базы данных (check_mysql_table_structure): Ok
+83% done
+2020-Jan-28 13:54:38 Структура базы данных (check_mysql_table_structure): Ok
+86% done
+2020-Jan-28 13:54:40 Структура базы данных (check_mysql_table_structure): Ok
+88% done
+2020-Jan-28 13:54:40 Структура базы данных (check_mysql_table_structure): Ok
+91% done
+2020-Jan-28 13:54:40 Структура базы данных (check_mysql_table_structure): Ok
+94% done
+2020-Jan-28 13:54:41 Структура базы данных (check_mysql_table_structure): Ok
+97% done
+2020-Jan-28 13:54:41 Структура базы данных (check_mysql_table_structure): Fail
+ALTER TABLE `b_user_field_lang` CHANGE `USER_FIELD_ID` `USER_FIELD_ID` int(11) NOT NULL;
+ALTER TABLE `b_user_field_lang` CHANGE `LANGUAGE_ID` `LANGUAGE_ID` char(2) NOT NULL;
+ALTER TABLE `b_sec_iprule_incl_mask` CHANGE `RULE_MASK` `RULE_MASK` varchar(250) NOT NULL;
+ALTER TABLE `b_sec_iprule_excl_mask` CHANGE `RULE_MASK` `RULE_MASK` varchar(250) NOT NULL;
+ALTER TABLE `b_translate_path` DROP INDEX `IX_TRNSL_PTH_PATH`;
+CREATE INDEX `IX_TRNSL_PTH_PATH` ON `b_translate_path` (path);
+ALTER TABLE `b_translate_path_lang` DROP INDEX `IX_TRNSL_LNG_PATH`;
+CREATE INDEX `IX_TRNSL_LNG_PATH` ON `b_translate_path_lang` (path);
+ALTER TABLE `b_translate_file` DROP INDEX `IX_TRNSL_FULL_PATH`;
+CREATE INDEX `IX_TRNSL_FULL_PATH` ON `b_translate_file` (full_path);
+ALTER TABLE `b_landing` CHANGE `DATE_PUBLIC` `DATE_PUBLIC` timestamp NULL DEFAULT NULL;
+ALTER TABLE `b_forum_user_topic` CHANGE `TOPIC_ID` `TOPIC_ID` int(11) NOT NULL;
+ALTER TABLE `b_forum_user_topic` CHANGE `USER_ID` `USER_ID` int(11) NOT NULL;
+ALTER TABLE `b_perf_sql_backtrace` CHANGE `SQL_ID` `SQL_ID` int(18) NOT NULL;
+ALTER TABLE `b_perf_sql_backtrace` CHANGE `NN` `NN` int(18) NOT NULL;
+ALTER TABLE `b_perf_index_suggest_sql` CHANGE `SUGGEST_ID` `SUGGEST_ID` int(11) NOT NULL;
+ALTER TABLE `b_perf_index_suggest_sql` CHANGE `SQL_ID` `SQL_ID` int(11) NOT NULL;
+ALTER TABLE `b_perf_tab_stat` CHANGE `TABLE_NAME` `TABLE_NAME` varchar(50) NOT NULL;
+Ошибка! Структура базы данных имеет ошибки. Всего 18, автоматически могут быть исправлены: 18. Исправить

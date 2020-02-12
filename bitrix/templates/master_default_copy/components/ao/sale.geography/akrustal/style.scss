@@ -1,0 +1,130 @@
+@import '../../../../resources/styles/bootstrap-variables';
+@import '../../../../resources/styles/blocks/news/list';
+
+.b-sale-geography {
+
+  @include newslist;
+
+  @media (max-width: $screen-xs) {
+    .panel-body {
+      padding: 5px 5px;
+    }
+  }
+
+  &__title {
+    margin: 10px;
+  }
+
+  &__item_title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: pxtoem(13px);
+  }
+
+  &__desc_title {
+    font-weight: bold;
+    display: inline-block;
+    width: 25%;
+    padding-right: 15px;
+  }
+
+  &__desc_value {
+    display: inline-block;
+    width: 70%;
+  }
+
+  &__btns {
+    margin-bottom: 25px;
+
+    &__title {
+      margin-left: 15px;
+    }
+
+    &> button {
+      margin: 5px;
+    }
+  }
+
+  &__network {
+    padding-left: 25px;
+    font-size: pxtoem(10px);
+  }
+
+  &__map{
+    width:100%;
+    height:600px;
+    display:block;
+    border: 1px solid #e8e8e8;
+    transition: box-shadow .3s;
+
+    &__claster {
+      color: $brand-primary;
+      font-size: pxtoem(16px);
+      font-weight: bold;
+      height: 80px;
+      line-height: 56px;
+      width: 58px;
+    }
+
+    &__marker {
+      color: $brand-primary;
+      font-size: pxtoem(14px);
+      font-weight: normal;
+      height: 80px;
+      line-height: 56px;
+      width: 58px;
+    }
+
+    &__link {
+      margin-top: 10px;
+    }
+
+    &__showall {
+      margin: 10px 0;
+    }
+
+    &__balloon>ul>li {
+      list-style-type: none;
+    }
+  }
+
+  &__map:hover{
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.13);
+  }
+
+  &__delivery{
+    margin-top: 15px;
+
+    &__link--dotted{
+      border-bottom: 1px dashed #7aa104;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.b-sale-geography-search{
+  margin: 0 0 20px;
+
+  &__q {
+    padding-left: 0;
+    padding-right: 5px;
+  }
+
+  .form-group{
+    padding-left: 0;
+    padding-right: 5px;
+  }
+
+  &__result {
+    margin: 10px 0;
+
+    &__q {
+      font-weight: bold;
+    }
+
+  }
+}
+

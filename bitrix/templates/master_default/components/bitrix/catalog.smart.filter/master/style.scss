@@ -1,0 +1,12 @@
+@import '../../../../resources/styles/bootstrap-variables';
+@import '../../../../resources/styles/functions';
+@import '../../../../resources/styles/snippets';
+
+#catalog-filter {
+  width: 100%;
+  margin-bottom: $line-height-computed; /* Орлов А. */
+}
+
+@import 'resources/styles/filter';
+@import 'resources/styles/filter_top';
+

@@ -1,0 +1,255 @@
+2017-Nov-27 17:33:04 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2017-Nov-27 17:33:04 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2017-Nov-27 17:33:04 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2017-Nov-27 17:33:04 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2017-Nov-27 17:33:04 Сохранение сессии (check_session): Ok
+50% done
+2017-Nov-27 17:33:04 Сохранение сессии (check_session): Ok
+Успешно
+2017-Nov-27 17:33:04 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2017-Nov-27 17:33:04 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2017-Nov-27 17:33:04 Работа с сокетами (check_socket): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:04 Выполнение агентов на cron (check_bx_crontab): Ok
+Успешно
+2017-Nov-27 17:33:05 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2017-Nov-27 17:33:05 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:05 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+2017-Nov-27 17:33:05 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:05 Настройки сайтов (check_sites): Ok
+Правильные
+2017-Nov-27 17:33:05 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2017-Nov-27 17:33:05 Размер стека и pcre.recursion_limit (check_pcre_recursion): Warning
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Замечание. Возможны проблемы в работе с длинными строками из-за системных ограничений
+2017-Nov-27 17:33:05 Загрузка файла (check_upload): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:05 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:05 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:05 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:05 Отправка почты (check_mail): Ok
+Успешно
+2017-Nov-27 17:33:05 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2017-Nov-27 17:33:05 Проверка на наличие неотправленных сообщений (check_mail_b_event): Fail
+Ошибка! Есть ошибки при отправке системных почтовых сообщений, число неотправленных сообщений: 8 Определена константа BX_CRONTAB_SUPPORT в /bitrix/php_interface/dbconn.php, при этом должен быть настроен вызов агентов на cron.
+2017-Nov-27 17:33:05 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+2017-Nov-27 17:33:05 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:05 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+2017-Nov-27 17:33:05 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+2017-Nov-27 17:33:05 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+2017-Nov-27 17:33:05 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+2017-Nov-27 17:33:05 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Не менее 256 М
+2017-Nov-27 17:33:05 Работа с файлами кеша (check_cache): Ok
+Успешно
+2017-Nov-27 17:33:05 Доступ к серверу обновлений (check_update): Fail
+== Request ==
+POST /bitrix/updates/us_updater_list.php HTTP/1.0
+User-Agent: BitrixSMUpdater
+Accept: */*
+Host: localhost
+Accept-Language: en
+Content-type: application/x-www-form-urlencoded
+Content-length: 7
+
+lang=en
+
+== Response ==
+HTTP/1.1 404 Not Found
+Date: Mon, 27 Nov 2017 14:33:05 GMT
+Server: Apache/2.2.22 (Debian)
+Vary: Accept-Encoding
+Content-Length: 307
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+== Body ==
+
+
+404 not found
+
+not found
+the requested url /bitrix/updates/us_updater_list.php was not found on this server.
+
+apache/2.2.22 (debian) server at localhost port 80
+
+
+==========
+
+Ошибка! Ошибочный ответ сервера обновлений
+2017-Nov-27 17:33:06 HTTP авторизация (check_http_auth): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:06 Создание и запуск файла (check_exec): Ok
+Connection to vm-44248bfb.netangels.ru:80	Success
+
+Успешно
+2017-Nov-27 17:33:06 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2017-Nov-27 17:33:06 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2017-Nov-27 17:33:07 Время на БД и веб-сервере (check_mysql_time): Ok
+Успешно
+2017-Nov-27 17:33:07 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2017-Nov-27 17:33:07 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2017-Nov-27 17:33:07 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=utf8, COLLATION=utf8_unicode_ci
+Успешно
+2017-Nov-27 17:33:07 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2017-Nov-27 17:33:07 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2017-Nov-27 17:33:07 Структура базы данных (check_mysql_table_structure): Ok
+2% done
+2017-Nov-27 17:33:07 Структура базы данных (check_mysql_table_structure): Ok
+4% done
+2017-Nov-27 17:33:08 Структура базы данных (check_mysql_table_structure): Ok
+6% done
+2017-Nov-27 17:33:08 Структура базы данных (check_mysql_table_structure): Ok
+8% done
+2017-Nov-27 17:33:08 Структура базы данных (check_mysql_table_structure): Ok
+10% done
+2017-Nov-27 17:33:08 Структура базы данных (check_mysql_table_structure): Ok
+12% done
+2017-Nov-27 17:33:08 Структура базы данных (check_mysql_table_structure): Ok
+14% done
+2017-Nov-27 17:33:08 Структура базы данных (check_mysql_table_structure): Ok
+16% done
+2017-Nov-27 17:33:09 Структура базы данных (check_mysql_table_structure): Ok
+18% done
+2017-Nov-27 17:33:09 Структура базы данных (check_mysql_table_structure): Ok
+20% done
+2017-Nov-27 17:33:09 Структура базы данных (check_mysql_table_structure): Ok
+22% done
+2017-Nov-27 17:33:09 Структура базы данных (check_mysql_table_structure): Ok
+24% done
+2017-Nov-27 17:33:09 Структура базы данных (check_mysql_table_structure): Ok
+26% done
+2017-Nov-27 17:33:09 Структура базы данных (check_mysql_table_structure): Ok
+28% done
+2017-Nov-27 17:33:09 Структура базы данных (check_mysql_table_structure): Ok
+30% done
+2017-Nov-27 17:33:10 Структура базы данных (check_mysql_table_structure): Ok
+32% done
+2017-Nov-27 17:33:10 Структура базы данных (check_mysql_table_structure): Ok
+34% done
+2017-Nov-27 17:33:10 Структура базы данных (check_mysql_table_structure): Ok
+36% done
+2017-Nov-27 17:33:10 Структура базы данных (check_mysql_table_structure): Ok
+38% done
+2017-Nov-27 17:33:10 Структура базы данных (check_mysql_table_structure): Ok
+40% done
+2017-Nov-27 17:33:10 Структура базы данных (check_mysql_table_structure): Ok
+42% done
+2017-Nov-27 17:33:10 Структура базы данных (check_mysql_table_structure): Ok
+44% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+46% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+48% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+51% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+53% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+55% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+57% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+59% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+61% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+63% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+65% done
+2017-Nov-27 17:33:11 Структура базы данных (check_mysql_table_structure): Ok
+67% done
+2017-Nov-27 17:33:12 Структура базы данных (check_mysql_table_structure): Ok
+69% done
+2017-Nov-27 17:33:12 Структура базы данных (check_mysql_table_structure): Ok
+71% done
+2017-Nov-27 17:33:12 Структура базы данных (check_mysql_table_structure): Ok
+73% done
+2017-Nov-27 17:33:12 Структура базы данных (check_mysql_table_structure): Ok
+75% done
+2017-Nov-27 17:33:12 Структура базы данных (check_mysql_table_structure): Ok
+77% done
+2017-Nov-27 17:33:12 Структура базы данных (check_mysql_table_structure): Ok
+79% done
+2017-Nov-27 17:33:12 Структура базы данных (check_mysql_table_structure): Ok
+81% done
+2017-Nov-27 17:33:12 Структура базы данных (check_mysql_table_structure): Ok
+83% done
+2017-Nov-27 17:33:13 Структура базы данных (check_mysql_table_structure): Ok
+85% done
+2017-Nov-27 17:33:13 Структура базы данных (check_mysql_table_structure): Ok
+87% done
+2017-Nov-27 17:33:13 Структура базы данных (check_mysql_table_structure): Ok
+89% done
+2017-Nov-27 17:33:14 Структура базы данных (check_mysql_table_structure): Ok
+91% done
+2017-Nov-27 17:33:14 Структура базы данных (check_mysql_table_structure): Ok
+93% done
+2017-Nov-27 17:33:14 Структура базы данных (check_mysql_table_structure): Ok
+95% done
+2017-Nov-27 17:33:14 Структура базы данных (check_mysql_table_structure): Ok
+97% done
+2017-Nov-27 17:33:14 Структура базы данных (check_mysql_table_structure): Ok
+Успешно

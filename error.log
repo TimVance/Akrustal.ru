@@ -1,0 +1,1554 @@
+2020-02-10 10:49:09 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:49:33 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:52:13 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:52:27 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:53:08 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:53:58 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:54:56 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:55:21 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:56:10 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:56:38 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:57:28 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:57:49 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:58:14 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:58:28 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:58:43 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:59:17 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:59:24 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 10:59:33 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 11:00:51 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 11:04:26 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-10 11:40:26 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 05:41:40 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 07:20:37 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 07:57:24 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 07:57:42 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 18:07:03 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 18:07:43 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 18:45:59 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 18:46:05 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-11 18:53:44 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:13:08 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:13:14 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:13:18 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:14:13 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:14:43 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:14:49 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:18:19 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:18:52 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:29:10 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:29:25 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:29:28 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2020-02-12 15:29:36 - Host: bx28960.rdkd.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Not array returned from: Array
+(
+    [SORT] => 100
+    [TO_MODULE_ID] => advertising
+    [TO_PATH] => 
+    [TO_CLASS] => \Bitrix\Advertising\Internals\ConversionHandlers
+    [TO_METHOD] => onGetCounterTypes
+    [TO_METHOD_ARG] => Array
+        (
+        )
+
+    [VERSION] => 1
+    [TO_NAME] => \Bitrix\Advertising\Internals\ConversionHandlers::onGetCounterTypes (advertising)
+    [FROM_DB] => 1
+)
+ (0)
+/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:25
+#0: Bitrix\Conversion\Internals\TypeManager::getTypesInternal()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/config.php:70
+#1: Bitrix\Conversion\Config::getModules()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/typemanager.php:70
+#2: Bitrix\Conversion\Internals\TypeManager::getTypes()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/basecontext.php:102
+#3: Bitrix\Conversion\Internals\BaseContext->setAttribute(string, string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:94
+#4: Bitrix\Conversion\Internals\Handlers::Bitrix\Conversion\Internals\{closure}(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/internals/handlers.php:270
+#5: Bitrix\Conversion\Internals\Handlers::onSetDayContextAttributes(object)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/main/classes/general/module.php:490
+#6: ExecuteModuleEventEx(array, array)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/lib/daycontext.php:265
+#7: Bitrix\Conversion\DayContext::saveInstance()
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/modules/conversion/tools/conversion/ajax_counter.php:30
+#8: require(string)
+	/var/www/bx28960/data/www/bx28960.rdkd.ru/bitrix/tools/conversion/ajax_counter.php:1
+----------

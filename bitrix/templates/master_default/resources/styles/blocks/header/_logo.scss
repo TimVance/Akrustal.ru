@@ -1,0 +1,59 @@
+@import 'helpers';
+
+.b-head1-logo {
+
+  @include master-logo;
+
+  &__name {
+    vertical-align: middle;
+  }
+
+  &__slogan {
+    display: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 3px;
+  }
+
+  @media (min-width: $screen-xs) {
+    /*text-align: center;*/
+  }
+
+  @media (min-width: $grid-float-breakpoint) {
+
+    &__slogan {
+      display: block;
+    }
+  }
+
+  @media (min-width: $screen-lg){
+    background: url(/bitrix/templates/master_default/assets/images/logo.png) no-repeat;
+    margin-left: 40px;
+    padding-left: 70px;
+  }
+}
+
+.b-head2-logo {
+  @include master-logo;
+
+  &__name {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__slogan {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2;
+    font-size: 16px;
+    margin-left: 15px;
+    display: none;
+  }
+
+  @media (min-width: $grid-float-breakpoint) {
+    &__slogan {
+      display: inline-block;
+      max-width: 200px;
+    }
+  }
+}

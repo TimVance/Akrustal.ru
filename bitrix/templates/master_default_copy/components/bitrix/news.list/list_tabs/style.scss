@@ -1,0 +1,78 @@
+@import '../../../../resources/styles/bootstrap-variables';
+@import '../../../../resources/styles/blocks/news/list';
+
+.b-newslist {
+  @include newslist;
+  margin-bottom: 30px;
+
+  &__title {
+    margin-top: 0;
+    color: $text-color;
+  }
+
+  &__title:hover,
+  &__title:focus,
+  &__title:active {
+    text-decoration: none;
+    color: $text-color;
+  }
+  &__btns {
+    margin-bottom: 30px;
+  }
+
+  &__btns > button {
+    margin: 5px;
+  }
+
+  // Орлов А.
+  &__item {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  &__pic {
+    height: 140px;
+    min-width: 140px;
+    flex: 0 1;
+  }
+
+  &__pic img {
+    position: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    bottom: inherit;
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+  }
+
+  &__data{
+    flex: 1 1;
+  }
+
+}
+
+.b-articles {
+  @include newslist;
+
+  margin-bottom: 30px;
+
+  &__item {
+
+    margin: 15px;
+
+    padding: 10px;
+
+    &__title {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__title:hover,
+  &__title:focus,
+  &__title:active {
+    text-decoration: none;
+    color: $text-color;
+  }
+}

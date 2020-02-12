@@ -1,0 +1,73 @@
+.mibew-agent {
+	position: fixed;
+	top: 510px;
+	right: 5px;
+}
+@media (max-width: 768px) {
+	.mibew-agent {
+		display: none;
+	}
+}
+
+/* Орлов А. переопределяем стили всплывающего окна добавления в корзину */
+.popup-window.popup-window-content-white.popup-window-with-titlebar {
+	padding: 0 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+.popup-window-titlebar{
+	color: #fff;
+	background-color: #7aa104;
+	padding: 15px 35px;
+	min-height: 80px;
+	position: relative;
+	z-index: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.popup-window-titlebar-text{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	align-items: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	padding: 0 0;
+}
+
+.popup-window-buttons{
+	margin: 0 5px;
+}
+
+.popup-window-buttons .btn {
+	color: #fff;
+	background-color: #7aa104;
+	border-color: #7aa104;
+	font-size: 1em;
+}
+
+.popup-window-buttons .btn:hover, .popup-window-buttons .btn:active {
+	color: #fff;
+	background-color: #546f03;
+	border-color: #546f03;
+}
+
+.popup-window-data {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+.popup-window-data-img{
+	margin-bottom: 10px;
+}
+
+.basket_quantity_control .plus{
+
+}

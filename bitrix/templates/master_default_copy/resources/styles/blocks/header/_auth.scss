@@ -1,0 +1,27 @@
+.b-head-auth {
+
+  &__logout {
+    margin: 5px 0 0 0;
+    padding: 0px 5px;
+  }
+
+  &__link {
+
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+    }
+
+    &--dotted {
+      border-bottom: 1px dashed $brand-primary;
+      bottom: 0;
+    }
+
+    &--dotted:hover {
+      border-color: darken($brand-primary, 10%);
+      text-decoration: none;
+    }
+
+  }
+}

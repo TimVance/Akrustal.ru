@@ -1,0 +1,1 @@
+<?echo '{ "total_sum": "'.str_replace(" руб.","",$arResult['TOTAL_PRICE']).'"}';

@@ -1,0 +1,133 @@
+@media screen and (min-width: 782px) and (max-width:1004px) {
+
+.slick-slider .slick-list {
+	height: 452px!important;
+	}
+}
+
+@media screen and (max-width: 782px) {
+
+  .banner {
+    background-size: auto;
+  }
+  
+  .banner_text {
+   width: 320px; 
+   margin: 2em;
+  }
+  
+  .banner_text h1 {
+    font-size: 1.3em;
+  }
+  
+/*Navigation*/
+
+.promo-navbar {
+    display: block;
+
+}
+
+nav {
+ display: block;
+}
+
+nav li {
+  margin-bottom: .5em;
+  }
+  
+  .cat-link {
+    display: block;
+    margin-bottom: .5em;
+  }
+
+.catalog-link {
+    display: block;
+    margin-bottom: .5em;
+}
+
+.catalog-link img {
+    display: none;
+}
+
+/*creme product*/
+.products {
+    display: grid;
+    grid-template-columns: minmax(100px, max-content)
+}
+
+.poll {
+display: flex;
+flex-flow: column;
+}
+
+.poll p {
+	text-align: center;
+}
+
+.slick-slider .slick-list {
+	height: 610px!important;
+	}
+
+.slick-slide img {
+  display: none;
+  }
+  
+  .left-block {
+    max-width: 100%;
+	float: none;
+  }
+
+  .left-block img{
+    margin-right: 8px;
+	float: left;
+  }
+  
+  /*attention*/
+  
+blockquote {
+	margin: .2em;
+	height: 550px;
+  }  
+  .attention {
+        grid-template-columns: 1fr;
+    margin: 1.5em .2em;
+  }
+  
+  .attention img {
+    display: none;
+  }
+  
+  .attention p {
+  border: none;
+  }
+
+/*advantages*/
+  .advantages {
+  grid-template-columns: 1fr;
+  }
+  
+    .catalog-item {
+    display: block!important;
+  }
+  .catalog-item img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .soap-fedback {
+  display: block;
+  }
+  
+/*why*/
+
+.list {
+    display: block;
+}
+.questions {
+  grid-template-columns: 1fr;
+  }
+
+
+  
+}

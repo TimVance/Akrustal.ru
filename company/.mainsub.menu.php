@@ -1,0 +1,141 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О продукции",
+		"/company/production/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Врачи об Акрустале",
+		"/company/research/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Оплата и доставка",
+		"/delivery-and-payment/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Наши новости",
+		"/company/news/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"История компании",
+		"/company/history/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Документы",
+		"/company/documentation/",
+		Array(),
+		Array(),
+		""
+	)
+	/*Array(
+		"Отправка за рубеж",
+		"international_delivery/",
+		Array(),
+		Array(),
+		""
+	),*/
+
+);
+/*
+	$aMenuLinks = Array(
+		Array(
+			"О компании",
+			"/company",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"О продукции",
+			"production/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"География продаж",
+			"sales-geography/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"История",
+			"history/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"Лицензии / сертификаты",
+			"license/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"Награды",
+			"awards/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"Партнеры",
+			"partners/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"Сотрудники",
+			"staff/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"Отзывы",
+			"reviews/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"Вакансии",
+			"vacancies/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"Фотогалерея",
+			"photogallery/",
+			Array(),
+			Array(),
+			""
+		),
+		Array(
+			"Акции",
+			"sale-promotions/",
+			Array(),
+			Array(),
+			""
+		),
+	);
+*/
