@@ -4,37 +4,12 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 }
 
 #\Akrustal\Lib\Utils::pr($arResult['SECTIONS']);
+use Bitrix\Main\Loader,
+    Rover\GeoIp\Location;
 
 $this->addExternalJs('//api-maps.yandex.ru/2.1/?lang=ru_RU&load=package.full"');
 
 $this->setFrameMode(true);
-
-if($arParams['USE_SEARCH']){
-	?>
-
-		<div class="b-sale-geography-search">
-			<form method="POST" action="<?=$APPLICATION->GetCurPage()?>" class="b-sale-geography-search__form">
-				<div class="form-row">
-					<div class="b-sale-geography-search__q form-group col-md-9">
-						<input name="q" value="" class="form-control" type="text" autocomplete="off">
-					</div>
-					<div class="form-group col-md-3">
-						<input name="s" type="submit" class="btn btn-primary" value="Найти">
-						<input name="с" type="submit" class="btn" value="Очистить">
-					</div>
-				</div>
-			</form>
-			<?
-			if(!empty($arParams['SEARCH_QUERY'])){
-				?>
-				<div class="b-sale-geography-search__result">Результаты поиска по строке <span class="b-sale-geography-search__result__q">"<?=$arParams['SEARCH_QUERY']?>"</span>:</div>
-				<?
-			}
-			?>
-		</div>
-
-	<?
-}
 
 if (count($arResult['ERRORS']) > 0) {
 	?>
@@ -59,34 +34,37 @@ if(isset($arResult['IS_EMPTY']) && $arResult['IS_EMPTY']){
 	<?
 }
 
+
+
+
+
+// Пытаемся определить страну или город
+if (Loader::includeModule('rover.geoip')){
+    try{
+        $location = Location::getInstance(Location::getCurIp()); // yandex.ru
+
+    } catch (\Exception $e) {
+        echo $e->getMessage();
+    }
+} else
+    echo 'Модуль GeoIp Api не установлен';
+
+
+$lat = ($location->getLat() ? $location->getLat() : "");
+$lng = ($location->getLng() ? $location->getLng() : "");
+$city = ($location->getCityName() ? $location->getCityName() : "");
+$country = ($location->getCountryName() ? $location->getCountryName() : "");
+
+
+
 if (count($arResult['SECTIONS']) > 0) {
 	?>
 	<div class="b-sale-geography js-sale-geography">
-		<?php if ( isset( $arResult['FILTER']) ){ ?>
-			<div class="b-sale-geography__btns btn-group">
-				<?php
-				$i=0;
-				foreach ( $arResult['FILTER'] as $arFilter ){
-					$isOpen = $i<>0 ? 'btn-default' : 'btn-primary';
-					$i++;
-					$image='';
-					if($arFilter['PICTURE']) {
-						$image = '<img alt="' . $arFilter['~NAME'] . '" src="' . $arFilter['PICTURE']['src'] . '" width="' . $arFilter['PICTURE']['width'] . '" height="' . $arFilter['PICTURE']['height'] . '" />';
-					}
-					?>
-					<button class="btn <?= $isOpen ?>" data-filter="<?= $arFilter['ID'] ?>">
-						<?= $image ?><span class="b-sale-geography__btns__title"><?= $arFilter['~NAME'] ?></span>
-					</button>
-					<?
-				}
-				?>
-			</div>
-		<?php }; ?>
-		<div class="panel-group" id="sale_geography_accordion" role="tablist" aria-multiselectable="true">
+		<div data-lat="<?=$lat?>" data-lng="<?=$lng?>" data-city="<?=$city?>" data-country="<?=$country?>" style="display:none" class="panel-group" id="sale_geography_accordion" role="tablist" aria-multiselectable="true">
 			<?php
 			$i = 0;
 			$YMap_data = '';
-			foreach ( $arResult['SECTIONS'] as $country_id => $arCountry ){
+            foreach ( $arResult['SECTIONS'] as $country_id => $arCountry ){
 				$isOpen = ($i == 0);
 				$i++;
 				$arAreas = $arCountry['SUB_SECTIONS'];
@@ -94,7 +72,7 @@ if (count($arResult['SECTIONS']) > 0) {
 					if(empty($arArea['SUB_SECTIONS'])) continue;
 					$style= $isOpen ? '': 'style="display: none;"';
 					?>
-					<div class="panel panel-master" id="<?= $area_id ?>" data-country="<?= $country_id ?>" data-code="<?= $arArea['CODE'] ?>"<?= $style ?>>
+					<div class="panel panel-master" id="<?= $area_id ?>" data-name-country="<?=$arCountry["~NAME"]?>" data-country="<?= $country_id ?>" data-code="<?= $arArea['CODE'] ?>"<?= $style ?>>
 						<div class="panel-heading" role="tab" id="heading_<?= $arArea['CODE'] ?>">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#sale_geography_accordion" href="#collapse_<?= $arArea['CODE'] ?>" aria-expanded="true" aria-controls="collapse_<?= $arArea['CODE'] ?>" class="collapsed">
@@ -253,9 +231,7 @@ if (count($arResult['SECTIONS']) > 0) {
 				<?php } ?>
 			<?php } ?>
 		</div>
-
 		<div class="b-sale-geography__map__title"></div>
-		<div class="b-sale-geography__map__showall"><a href="javascript:void(0);" class="b-sale-geography__map__showall__link">Показать все точки продаж</a></div>
 		<div class="b-sale-geography__map" id="sale-geography-map" data-center="<?= $arResult['CENTER'] ?>"></div>
 
 	</div>

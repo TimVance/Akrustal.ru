@@ -120,8 +120,38 @@ $(document).ready(function () {
 		sale_geography_map_title.html();
 		if(all)
 		{
+
 			sale_geography_map_title.html("<h4>Показаны все точки продаж</h4>");
-			$sale_geography_ya_map.setZoom( 3 );
+
+			var centerX = 60;
+			var centerY = 80;
+			var defaultZoom = 3;
+
+			var info = $("#sale_geography_accordion");
+			var dataCity = info.attr("data-city");
+			var dataCountry = info.attr("data-country");
+			var dataLat = info.attr("data-lat");
+			var dataLng = info.attr("data-lng");
+
+			if (dataCountry !== '') {
+				if($(".panel.panel-master[data-name-country='" + dataCountry + "']").length) {
+					centerX = dataLat;
+					centerY = dataLng;
+					defaultZoom = 7;
+					sale_geography_map_title.html("<h4>Точки продаж - " + dataCountry + "</h4>");
+				}
+			}
+			if (dataCity !== '') {
+				if($(".b-sale-geography__city[data-city-title='" + dataCity + "']").length) {
+					centerX = dataLat;
+					centerY = dataLng;
+					defaultZoom = 13;
+					sale_geography_map_title.html("<h4>Точки продаж в городе " + dataCity + "</h4>");
+				}
+			}
+
+			$sale_geography_ya_map.setZoom( defaultZoom );
+			$sale_geography_ya_map.setCenter( [centerX, centerY] );
 		}
 		else
 		{
@@ -150,8 +180,8 @@ $(document).ready(function () {
 		$sale_geography_map.hide();
 
         $sale_geography_ya_map = new ymaps.Map("sale-geography-map", {
-          center: $sale_geography_map.data('center'),
-          zoom: 3
+          center: [55.526127377126,37.504044234375],
+          zoom: 12
         });
 
         /*Кластера - группируем близко расположенные друг к другу объекты, чтобы при отдалении карты появлялась другая иконка
@@ -187,6 +217,8 @@ $(document).ready(function () {
             '</address>'
         );
 
+		refreshPlacemarks(true);
+
         //Запрещаем изменение размеров карты по скролу мыши
         /*map.behaviors.disable("scrollZoom");*/
     };
@@ -208,10 +240,10 @@ $(document).ready(function () {
 	});
 
 	// ссылка показать все
-	$('.b-sale-geography__map__showall__link').on('click', function (e) {
-		e.preventDefault();
-
-		var all = true;
-		refreshPlacemarks(all);
-	});
+	//$('.b-sale-geography__map__showall__link').on('click', function (e) {
+		//e.preventDefault();
+		//console.log('4566');
+		//var all = true;
+		//refreshPlacemarks(true);
+	//});
 });
