@@ -9,8 +9,6 @@ use Bitrix\Main\Loader,
 
 $this->addExternalJs('//api-maps.yandex.ru/2.1/?lang=ru_RU&load=package.full"');
 
-$this->setFrameMode(true);
-
 if (count($arResult['ERRORS']) > 0) {
 	?>
 	<div class="alert alert-danger">
@@ -34,14 +32,15 @@ if(isset($arResult['IS_EMPTY']) && $arResult['IS_EMPTY']){
 	<?
 }
 
+$frame = $this->createFrame()->begin('Загрузка ...');
 
-
+echo \Bitrix\Main\Service\GeoIp\Manager::getRealIp();
 
 
 // Пытаемся определить страну или город
 if (Loader::includeModule('rover.geoip')){
     try{
-        $location = Location::getInstance(Location::getCurIp()); // yandex.ru
+        $location = Location::getInstance(\Bitrix\Main\Service\GeoIp\Manager::getRealIp());
 
     } catch (\Exception $e) {
         echo $e->getMessage();
@@ -237,3 +236,6 @@ if (count($arResult['SECTIONS']) > 0) {
 	</div>
 	<?
 };
+
+
+$frame->end();
