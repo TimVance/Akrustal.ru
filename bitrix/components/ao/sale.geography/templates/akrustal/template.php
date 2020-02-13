@@ -34,7 +34,7 @@ if(isset($arResult['IS_EMPTY']) && $arResult['IS_EMPTY']){
 
 $frame = $this->createFrame()->begin('Загрузка ...');
 
-echo \Bitrix\Main\Service\GeoIp\Manager::getRealIp();
+//echo \Bitrix\Main\Service\GeoIp\Manager::getRealIp();
 
 
 // Пытаемся определить страну или город
