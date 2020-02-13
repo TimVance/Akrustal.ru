@@ -145,7 +145,7 @@ $(document).ready(function () {
 				if($(".b-sale-geography__city[data-city-title='" + dataCity + "']").length) {
 					centerX = dataLat;
 					centerY = dataLng;
-					defaultZoom = 13;
+					defaultZoom = 11;
 					sale_geography_map_title.html("<h4>Точки продаж в городе " + dataCity + "</h4>");
 				}
 			}
