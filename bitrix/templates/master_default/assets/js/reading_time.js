@@ -1,3 +1,4 @@
+
 window.RS = window.RS || {};
 
 RS.ReadingTime = (function() {
