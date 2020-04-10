@@ -1,22 +1,8 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"О компании", 
-		"/company/index.php", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"Новости", 
 		"/company/news/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Врачи об Акрустале", 
-		"/company/research/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -29,39 +15,25 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Карьера", 
-		"/company/vacancy/", 
+		"История развития", 
+		"/company/history/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Контакты", 
-		"/contacts/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Документы",
+		"/company/docs/",
+		Array(),
+		Array(),
+		""
 	),
-	Array(
-		"Партнеры", 
-		"/company/partners/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Лицензии", 
-		"/company/licenses/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Документы", 
-		"/company/docs/", 
-		Array(), 
-		Array(), 
-		"" 
-	)
+    Array(
+        "Сеть аптек",
+        "/company/set-aptek/",
+        Array(),
+        Array(),
+        ""
+    )
 );
 ?>
