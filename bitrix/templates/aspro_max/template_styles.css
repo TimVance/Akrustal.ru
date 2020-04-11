@@ -7771,3 +7771,7 @@ ul:not([id*=bx_])>li:before {
 	border: 1px solid #ddd;
 	position: relative;
 }
+
+.b-newslist__videodatainner iframe {
+	margin: 0;
+}
