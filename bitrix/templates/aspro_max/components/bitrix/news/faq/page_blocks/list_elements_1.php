@@ -1,7 +1,7 @@
 <?// section elements?>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
-	"items-list",
+	"faq_list",
 	Array(
 		"COUNT_IN_LINE" => $arParams["COUNT_IN_LINE"],
 		"SHOW_SECTION_PREVIEW_DESCRIPTION" => $arParams["SHOW_SECTION_PREVIEW_DESCRIPTION"],

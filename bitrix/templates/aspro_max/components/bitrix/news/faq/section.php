@@ -18,10 +18,13 @@ CMax::AddMeta(
 <?elseif(!$arSection && $arParams['SET_STATUS_404'] === 'Y'):?>
 	<?CMax::goto404Page();?>
 <?else:?>
-	<?// rss
-	if($arParams['USE_RSS'] !== 'N'){
-		CMax::ShowRSSIcon(CComponentEngine::makePathFromTemplate($arResult['FOLDER'].$arResult['URL_TEMPLATES']['rss_section'], array_map('urlencode', $arResult['VARIABLES'])));
-	}?>
+	<?$this->SetViewTarget('product_share');?>
+		<?if($arParams['USE_RSS'] !== 'N'):?>
+			<div class="colored_theme_hover_bg-block">
+				<?=CMax::ShowRSSIcon(CComponentEngine::makePathFromTemplate($arResult['FOLDER'].$arResult['URL_TEMPLATES']['rss_section'], array_map('urlencode', $arResult['VARIABLES'])));?>
+			</div>
+		<?endif;?>
+	<?$this->EndViewTarget();?>
 	<?if(!$itemsCnt):?>
 		<div class="alert alert-warning"><?=GetMessage("SECTION_EMPTY")?></div>
 	<?endif;?>
