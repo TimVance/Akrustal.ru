@@ -7266,7 +7266,7 @@ body div.search-popup-row-active {
 	//display: none;
 }
 
-ul>li {
+.b-news-detail__content ul>li {
 	list-style-type: disc;
 }
 
