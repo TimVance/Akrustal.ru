@@ -209,7 +209,6 @@ $(document).ready(function () {
 
 	// ссылка показать все
 	$('.b-sale-geography__map__showall__link').on('click', function (e) {
-		console.log('456');
 		e.preventDefault();
 
 		var all = true;

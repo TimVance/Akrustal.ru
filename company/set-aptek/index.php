@@ -8,6 +8,7 @@ $APPLICATION->SetTitle("Сеть аптек");
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
 		"IBLOCK_ID" => "38",
-		"IBLOCK_TYPE" => "services"
+		"IBLOCK_TYPE" => "services",
+        "SEARCH_QUERY" => trim($_REQUEST['q'])
 	)
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
