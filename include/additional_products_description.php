@@ -1,0 +1,1 @@
+<div class="download-map">Загрузка карты...</div>

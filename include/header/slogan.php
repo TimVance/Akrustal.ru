@@ -1,0 +1,1 @@
+<? $APPLICATION->AddBufferContent(array('\Akrustal\Lib\Utils','ShowSlogan'), 'При псориазе, экземе, нейродермите!');?>

@@ -612,13 +612,17 @@ $iCountProps = count($arResult['DISPLAY_PROPERTIES']);?>
 								<?$isArticle=(strlen($arResult["CML2_ARTICLE"]["VALUE"]) || ($arResult['SHOW_OFFERS_PROPS'] && $showCustomOffer));?>
 								<?if($arParams["SHOW_RATING"] == "Y"):?>
 									<div class="product-info-headnote__rating">
-										<?$frame = $this->createFrame('dv_'.$arResult["ID"])->begin('');?>
+										<?$frame = $this->createFrame('dv_'.$arResult["ID"])->begin();?>
 											<div class="rating">
 												<?
 												global $arTheme;
 												if($arParams['REVIEWS_VIEW'] == 'EXTENDED'):?>
 													<div class="blog-info__rating--top-info pointer">
-														<div class="votes_block nstar with-text">
+														<div class="votes_block nstar with-text" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+															<meta itemprop="ratingValue" content="<?=$arResult['PROPERTIES']['EXTENDED_REVIEWS_RAITING']['VALUE']?>" />
+															<meta itemprop="reviewCount" content="<?=intval($arResult['PROPERTIES']['EXTENDED_REVIEWS_COUNT']['VALUE'])?>" />
+															<meta itemprop="bestRating" content="5" />
+															<meta itemprop="worstRating" content="0" />
 															<div class="ratings">
 																<?$message = $arResult['PROPERTIES']['EXTENDED_REVIEWS_COUNT']['VALUE'] ? GetMessage('VOTES_RESULT', array('#VALUE#' => $arResult['PROPERTIES']['EXTENDED_REVIEWS_RAITING']['VALUE'])) : GetMessage('VOTES_RESULT_NONE')?>
 																<div class="inner_rating" title="<?=$message?>">
@@ -769,6 +773,31 @@ $iCountProps = count($arResult['DISPLAY_PROPERTIES']);?>
 												<?endif;?>
 											</div>
 
+											<?//for product wo POPUP_PRICE in fixed header?>
+											<?if(!$arParams['SHOW_POPUP_PRICE'] && !$arResult["OFFERS"]):?>
+												<script>
+													<?if(isset($arResult['PRICE_MATRIX']) && $arResult['PRICE_MATRIX']): // USE_PRICE_COUNT?>
+														<?$priceHtml = CMax::showPriceMatrix($arResult, $arParams, $strMeasure, $arAddToBasketData);?>
+														<?$countPricesMatrix = count($arResult['PRICE_MATRIX']['MATRIX'])?>
+														<?$countPricesRows = count($arResult['PRICE_MATRIX']['ROWS'])?>
+														<?$countPrices = ($countPricesMatrix > $countPricesRows ? $countPricesMatrix : $countPricesRows)?>
+														BX.message({
+															ASPRO_ITEM_PRICE_MATRIX: <?=CUtil::PhpToJSObject($priceHtml, false, true);?>
+														})
+													<?elseif($arResult["PRICES"]):?>
+														<?$priceHtml = \Aspro\Functions\CAsproMaxItem::showItemPrices($arParams, $arResult["PRICES"], $strMeasure, $min_price_id, ($arParams["SHOW_DISCOUNT_PERCENT_NUMBER"] == "Y" ? "N" : "Y"), false, true);?>
+														<?$countPrices = count($arResult['PRICES'])?>
+														BX.message({
+															ASPRO_ITEM_PRICE: <?=CUtil::PhpToJSObject($priceHtml, false, true);?>
+														})
+													<?endif;?>
+													BX.message({
+														ASPRO_ITEM_POPUP_PRICE: 'Y',
+														ASPRO_ITEM_PRICES: <?=$countPrices;?>
+													})
+												</script>
+											<?endif;?>
+
 											<?//stock?>
 											<div class="quantity_block_wrapper">
 												<?=$arQuantityData["HTML"];?>
@@ -910,41 +939,43 @@ $iCountProps = count($arResult['DISPLAY_PROPERTIES']);?>
 							<?$this->EndViewTarget();?>
 						</div>
 					</div>
-
-					<div class="product-chars flex-50">
-						<?//props?>
-						<?$bShowMoreLink = ($iCountProps > $arParams['VISIBLE_PROP_COUNT']);?>
-						<?if($arResult['DISPLAY_PROPERTIES'] || $arResult['DISPLAY_PROPERTIES_OFFERS']):?>
-							<div class="char-side">
-								<div class="char-side__title font_sm darken"><?=($arParams["T_CHARACTERISTICS"] ? $arParams["T_CHARACTERISTICS"] : Loc::getMessage("T_CHARACTERISTICS"));?></div>
-								<div class="properties list">
-									<div class="properties__container properties">
-										<?$j=0;?>
-										<?foreach($arResult['DISPLAY_PROPERTIES'] as $arProp):?>
-											<?if($j<$arParams['VISIBLE_PROP_COUNT']):?>
-												<div class="properties__item properties__item--compact font_xs">
-													<div class="properties__title muted properties__item--inline"><?=$arProp['NAME']?></div>
-													<div class="properties__hr muted properties__item--inline">&mdash;</div>
-													<div class="properties__value darken properties__item--inline">
-														<?if(count($arProp["DISPLAY_VALUE"]) > 1):?>
-															<?=implode(', ', $arProp["DISPLAY_VALUE"]);?>
-														<?else:?>
-															<?=$arProp["DISPLAY_VALUE"];?>
-														<?endif;?>
+					
+					<?if($arParams['VISIBLE_PROP_COUNT'] > 0):?>
+						<div class="product-chars flex-50">
+							<?//props?>
+							<?$bShowMoreLink = ($iCountProps > $arParams['VISIBLE_PROP_COUNT']);?>
+							<?if($arResult['DISPLAY_PROPERTIES'] || $arResult['DISPLAY_PROPERTIES_OFFERS']):?>
+								<div class="char-side">
+									<div class="char-side__title font_sm darken"><?=($arParams["T_CHARACTERISTICS"] ? $arParams["T_CHARACTERISTICS"] : Loc::getMessage("T_CHARACTERISTICS"));?></div>
+									<div class="properties list">
+										<div class="properties__container properties">
+											<?$j=0;?>
+											<?foreach($arResult['DISPLAY_PROPERTIES'] as $arProp):?>
+												<?if($j<$arParams['VISIBLE_PROP_COUNT']):?>
+													<div class="properties__item properties__item--compact font_xs">
+														<div class="properties__title muted properties__item--inline"><?=$arProp['NAME']?></div>
+														<div class="properties__hr muted properties__item--inline">&mdash;</div>
+														<div class="properties__value darken properties__item--inline">
+															<?if(count($arProp["DISPLAY_VALUE"]) > 1):?>
+																<?=implode(', ', $arProp["DISPLAY_VALUE"]);?>
+															<?else:?>
+																<?=$arProp["DISPLAY_VALUE"];?>
+															<?endif;?>
+														</div>
 													</div>
-												</div>
-											<?endif;?>
-											<?$j++;?>
-										<?endforeach;?>
+												<?endif;?>
+												<?$j++;?>
+											<?endforeach;?>
+										</div>
+										<div class="properties__container properties js-offers-props"></div>
 									</div>
-									<div class="properties__container properties js-offers-props"></div>
+									<?if($bShowMoreLink):?>
+										<div class="more-char-link"><span class="choise colored_theme_text_with_hover font_sxs dotted" data-block=".js-scrolled"><?=Loc::getMessage('ALL_CHARS');?></span></div>
+									<?endif;?>
 								</div>
-								<?if($bShowMoreLink):?>
-									<div class="more-char-link"><span class="choise colored_theme_text_with_hover font_sxs dotted" data-block=".js-scrolled"><?=Loc::getMessage('ALL_CHARS');?></span></div>
-								<?endif;?>
-							</div>
-						<?endif;?>
-					</div>
+							<?endif;?>
+						</div>
+					<?endif;?>
 				</div>
 
 				<?//dop text?>
@@ -1089,7 +1120,8 @@ $iCountProps = count($arResult['DISPLAY_PROPERTIES']);?>
 <?if($arParams['SHOW_ADDITIONAL_TAB'] == 'Y'):?>
 	<?$this->SetViewTarget('PRODUCT_CUSTOM_TAB_INFO');?>
 		<?$APPLICATION->IncludeFile(SITE_DIR."include/additional_products_description.php", array(), array("MODE" => "html", "NAME" => GetMessage('CT_BCE_CATALOG_ADDITIONAL_DESCRIPTION')));?>
-	<?$this->EndViewTarget();?>
+        <?php $this->addExternalJs('//api-maps.yandex.ru/2.1/?lang=ru_RU&load=package.full"'); ?>
+    <?$this->EndViewTarget();?>
 <?endif;?>
 
 <?//props content?>
@@ -1148,16 +1180,16 @@ $iCountProps = count($arResult['DISPLAY_PROPERTIES']);?>
 			</div>
 		<?else:?>
 			<?if($arParams["PROPERTIES_DISPLAY_TYPE"] != "TABLE"):?>
-				<div class="props_block js-scrolled" id="<? echo $arItemIDs["ALL_ITEM_IDS"]['DISPLAY_PROP_DIV']; ?>">
+				<div class="props_block js-scrolled clearfix flexbox row" id="<? echo $arItemIDs["ALL_ITEM_IDS"]['DISPLAY_PROP_DIV']; ?>">
 					<?foreach($arResult["DISPLAY_PROPERTIES"] as $propCode => $arProp):?>
-						<div class="char" itemprop="additionalProperty" itemscope itemtype="http://schema.org/PropertyValue">
-							<div class="char_name">
-								<?if($arProp["HINT"] && $arParams["SHOW_HINTS"]=="Y"):?><div class="hint"><span class="icon"><i>?</i></span><div class="tooltip"><?=$arProp["HINT"]?></div></div><?endif;?>
-								<div class="props_item <?if($arProp["HINT"] && $arParams["SHOW_HINTS"] == "Y"){?>whint<?}?>">
+						<div class="char col-lg-3 col-md-4 col-xs-6 bordered" itemprop="additionalProperty" itemscope itemtype="http://schema.org/PropertyValue">
+							<div class="char_name">								
+								<div class="props_item muted <?if($arProp["HINT"] && $arParams["SHOW_HINTS"] == "Y"){?>whint<?}?>">
 									<span itemprop="name"><?=$arProp["NAME"]?></span>
 								</div>
+								<?if($arProp["HINT"] && $arParams["SHOW_HINTS"]=="Y"):?><div class="hint"><span class="icon"><i>?</i></span><div class="tooltip"><?=$arProp["HINT"]?></div></div><?endif;?>
 							</div>
-							<div class="char_value" itemprop="value">
+							<div class="char_value darken" itemprop="value">
 								<?if(count($arProp["DISPLAY_VALUE"]) > 1):?>
 									<?=implode(', ', $arProp["DISPLAY_VALUE"]);?>
 								<?else:?>

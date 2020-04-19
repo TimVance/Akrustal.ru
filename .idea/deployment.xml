@@ -25,7 +25,6 @@
             <excludedPath path="/www/bx28960.rdkd.ru/help" />
             <excludedPath path="/www/bx28960.rdkd.ru/helpinfo" />
             <excludedPath path="/www/bx28960.rdkd.ru/images" />
-            <excludedPath path="/www/bx28960.rdkd.ru/include" />
             <excludedPath path="/www/bx28960.rdkd.ru/info" />
             <excludedPath path="/www/bx28960.rdkd.ru/landings" />
             <excludedPath path="/www/bx28960.rdkd.ru/local" />
@@ -59,7 +58,6 @@
             <excludedPath local="true" path="$PROJECT_DIR$/help" />
             <excludedPath local="true" path="$PROJECT_DIR$/helpinfo" />
             <excludedPath local="true" path="$PROJECT_DIR$/images" />
-            <excludedPath local="true" path="$PROJECT_DIR$/include" />
             <excludedPath local="true" path="$PROJECT_DIR$/info" />
             <excludedPath local="true" path="$PROJECT_DIR$/landings" />
             <excludedPath local="true" path="$PROJECT_DIR$/local" />

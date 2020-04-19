@@ -21,9 +21,9 @@ if(!\Bitrix\Main\Loader::includeModule('iblock')) {
 /* @global CUser $USER */
 /* @global CMain $APPLICATION */
 
-/*if (!isset($arParams['CACHE_TIME'])) {
+if (!isset($arParams['CACHE_TIME'])) {
     $arParams['CACHE_TIME'] = 36000000;
-}*/
+}
 
 $arParams['IBLOCK_ID'] = intval($arParams['IBLOCK_ID']);
 
@@ -38,12 +38,11 @@ $geoResult = GeoIp\Manager::getDataResult($ipAddress, "ru");
 if($geoResult) {
 	if ( $geoResult->isSuccess() ) {
 		$obGeoData = $geoResult->getGeoData();
-		$arResult['CENTER'] = '['.$obGeoData->latitude.','.$obGeoData->longitude.']';
+		//$arResult['CENTER'] = '['.$obGeoData->latitude.','.$obGeoData->longitude.']';
 	}
 }
 
-
-//if ($this->StartResultCache(false, $arParams['SEARCH_QUERY'])) {
+if ($this->StartResultCache(false, $arParams['SEARCH_QUERY'])) {
 
 	$arSelect = array(
 		'ID',
@@ -66,13 +65,13 @@ if($geoResult) {
 	$arResult['ERRORS'] = $arSalesGeography['ERRORS'];
 	$arResult['FILTER'] = $arSalesGeography['FILTER'];
 
-//	if(!count($arResult['SECTIONS'])){
-//		$arResult['IS_EMPTY'] = true;
-//		$this->AbortResultCache();
-//	}
+	if(!count($arResult['SECTIONS'])){
+		$arResult['IS_EMPTY'] = true;
+		$this->AbortResultCache();
+	}
 
 	$this->IncludeComponentTemplate();
-//}
+}
 
 
 
