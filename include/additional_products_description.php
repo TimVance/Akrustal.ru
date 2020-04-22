@@ -1,1 +1,1 @@
-<div class="download-map">Загрузка карты...</div>
+<?CMax::ShowPageType('page_contacts');?>

@@ -1120,7 +1120,6 @@ $iCountProps = count($arResult['DISPLAY_PROPERTIES']);?>
 <?if($arParams['SHOW_ADDITIONAL_TAB'] == 'Y'):?>
 	<?$this->SetViewTarget('PRODUCT_CUSTOM_TAB_INFO');?>
 		<?$APPLICATION->IncludeFile(SITE_DIR."include/additional_products_description.php", array(), array("MODE" => "html", "NAME" => GetMessage('CT_BCE_CATALOG_ADDITIONAL_DESCRIPTION')));?>
-        <?php $this->addExternalJs('//api-maps.yandex.ru/2.1/?lang=ru_RU&load=package.full"'); ?>
     <?$this->EndViewTarget();?>
 <?endif;?>
 

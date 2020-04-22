@@ -16,7 +16,6 @@
             <excludedPath path="/www/bx28960.rdkd.ru/blog" />
             <excludedPath path="/www/bx28960.rdkd.ru/cart" />
             <excludedPath path="/www/bx28960.rdkd.ru/catalog" />
-            <excludedPath path="/www/bx28960.rdkd.ru/contacts" />
             <excludedPath path="/www/bx28960.rdkd.ru/delivery-and-payment" />
             <excludedPath path="/www/bx28960.rdkd.ru/desktop_app" />
             <excludedPath path="/www/bx28960.rdkd.ru/docs" />
@@ -49,7 +48,6 @@
             <excludedPath local="true" path="$PROJECT_DIR$/blog" />
             <excludedPath local="true" path="$PROJECT_DIR$/cart" />
             <excludedPath local="true" path="$PROJECT_DIR$/catalog" />
-            <excludedPath local="true" path="$PROJECT_DIR$/contacts" />
             <excludedPath local="true" path="$PROJECT_DIR$/delivery-and-payment" />
             <excludedPath local="true" path="$PROJECT_DIR$/desktop_app" />
             <excludedPath local="true" path="$PROJECT_DIR$/docs" />
