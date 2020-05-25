@@ -7775,3 +7775,16 @@ ul:not([id*=bx_])>li:before {
 .b-newslist__videodatainner iframe {
 	margin: 0;
 }
+
+.feature__icon>svg, .icon-svg {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	marign-bottom: -.0555556em;
+	vertical-align: middle;
+}
+
+.b-news-detail__topline-icon {
+	color: #339900;
+}
